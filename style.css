@@ -1,0 +1,101 @@
+.sectionmain{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* padding-left:  150px; 
+    padding-right: 150px; */
+}
+
+
+
+.edu-info ,
+li{
+    color: #b1b6b6;
+}
+
+.contact-info{
+    font-weight: bold;
+}
+
+.heading , h1{
+    text-transform: uppercase;
+}
+
+li::marker{
+    color: white;
+}
+
+
+.container{
+    display: flex;
+
+}
+
+.right-side{
+    padding-left: 2%;
+    width: 70%;
+    background-color: #fdfefe;
+    line-height: 30px;
+}
+
+.left-side{
+    padding-left: 2%;
+    padding-right: 30px;
+    width: 30%;
+    background-color: #1a1a51;
+    color: #b1b6b6;
+}
+.education{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.expertise{
+    display: flex;
+    flex-direction: column;
+}
+
+.expertise p,
+.aboutme p
+{
+    color: #7c8181;
+}
+
+.headline{
+    font-style: italic;
+    font-size: large;
+} 
+
+.mainbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px 50px;
+    background-color:#ebebf5;
+}
+
+.header{
+    text-align: center;
+    flex-grow: 1;
+}
+ .candidateName{
+    font-size:xx-large;
+    font-weight: bolder;
+}
+
+
+.professional-girl{
+    margin-left: 50px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.contact-info i{
+    margin-right: 20px;
+}
